@@ -1,0 +1,583 @@
+/*
+theme name: EliteCrope
+Theme coder: Mahmoud Krema
+PSD designer: Mohamed Zahran
+First color: #08526d
+Second color: #ec1c23
+*/
+
+
+
+/*upper-bar start*/
+.upper-bar
+{
+    background-color: #08526d;
+    color: #FFF;
+    padding: 15px 0px;
+}
+
+.upper-bar span
+{
+
+    color: rgb(212, 212, 212);
+
+}
+
+#quote
+{
+    border: solid 1px red;
+    padding: 2px 10px;
+    margin-left: 20px;
+}
+/*upper-bar end*/
+
+
+/*Navbar start*/
+
+/* .navbar
+{
+    background-color: #ec1c23;
+} */
+.navbar-brand :first-child
+{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.navbar-brand :nth-child(2)
+{
+    color: #08526d;
+    font-weight: bold;
+}
+
+.navbar-brand :nth-child(3)
+{
+    color: #ec1c23;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ec1c23;
+}
+
+.navbar-nav {
+    margin-right: 110px;
+    font-size: 20px;
+}
+
+.navbar-brand
+{
+    font-size: 2.2rem;
+}
+
+
+
+/*Navbar end*/
+
+
+
+/*Slider Start*/
+
+.firstSlider .slide .carousel-inner
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.firstSlider .slide h1
+{
+    position: absolute;
+    max-width: 400px;
+    color: white; 
+    z-index: 2;
+    margin-left: 100px;
+
+}
+
+.firstSlider .slide h1 span
+{
+    background-color:red;
+    padding: 0px 5px 5px 5px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.firstSlider .slide
+{
+    background-color: rgb(209, 5, 5);
+}
+
+.firstSlider .carousel .carousel-inner .overlay1
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.firstSlider .carousel-control-prev,
+.firstSlider .carousel-control-next,
+.firstSlider .carousel-indicators
+
+{
+    z-index: 2;
+}
+
+.firstSlider .carousel-item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.firstSlider .carousel-item1
+{
+    background-image: url(../imgs/Swain_0.jpg);
+}
+
+.firstSlider .carousel-item2
+{
+    background-image: url(../imgs/Swain_1.jpg);
+}
+
+.firstSlider .carousel-item3
+{
+    background-image: url(../imgs/Swain_2.jpg);
+}
+
+.firstSlider .carousel-item4
+{
+    background-image: url(../imgs/Swain_3.jpg);
+}
+
+
+.firstSlider .carousel-indicators [data-bs-target]
+{
+    height: 9px;
+    width: 40px;
+}
+/*Slider End*/
+
+/*features start*/
+/* .features .container .row div
+{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+} */
+
+.features .item
+{
+    background-color: red;
+    width: 100px; 
+    height: 100px; 
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+    
+}
+.features
+{
+    /* height: 1000px; */
+    margin: 40px;
+}
+
+.features header
+{
+    color: #08526d;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .text
+{
+    color: #08526d;
+    font-size: 20px;
+    font-weight: bold;
+} */
+
+
+/*features end*/
+
+
+/*overview start*/
+
+
+.overview 
+{
+    background-color: rgb(238, 238, 238);
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.overview header
+{
+    font-size: 55px;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+.overview p
+{
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+    /* max-width: 800px; */
+}
+
+.overview span
+{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 8px;
+}
+
+.overview button
+{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    padding: 5px 20px;
+    
+    
+}
+/*overview end*/
+
+
+
+/*featuredWork start*/
+
+
+.featuredWork
+{
+    margin-top: 100px;
+    /* width:2000px; */
+}
+
+
+
+
+.featuredWork header
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.featuredWork .container div
+{
+    font-size: 20px;
+    /* margin-top: 100px; */
+}
+
+.featuredWork ul
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 80px;
+    color: #08526d;
+    list-style-type:none;
+    width: 100%;
+   
+}
+
+
+.featuredWork li
+{
+    border: solid #08526d;
+    border-width: 4px;
+    /* margin-left: 2px; */
+    padding: 10px 10px;
+    white-space:nowrap;
+
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+/* .featuredWork ul
+{
+    padding: 0px 0px;
+} */
+
+
+/* .featuredWork li + li
+{
+    margin-left: 40px;
+
+} */
+
+
+
+.featuredWork .active
+{
+    background-color: #ec1c23;
+    border: solid #08526d;
+    color: white;
+}
+
+.featuredWork ul :hover
+{
+    background-color: #ec1c23;
+    color: white;
+    cursor: pointer;
+}
+
+ 
+   
+
+/*images start*/
+.featuredWork #firstRow
+{
+    margin-top: 100px;
+    /* padding: 0px; */
+
+}
+
+.featuredWork .shuffleImages .images div
+{
+    /* background-color: #ec1c23; */
+    padding: 0px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+}
+.featuredWork .images 
+{
+    /* background-color: #ec1c23; */
+    margin: 0px;
+    
+    
+}
+
+.featuredWork img
+{
+        width: 100%;
+    /*the width of the images is 100% of the div width*/
+}
+
+
+
+
+
+/*images ens*/
+
+/*featuredWork end*/
+
+
+/*Latest Posts start*/
+
+
+/* body
+{
+    height: 5000px;
+} */
+
+.latestPosts 
+{
+    margin-top: 80px;
+}
+
+.latestPosts header
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.latestPosts .container :nth-child(1) > p
+{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.latestPosts .cardPart h6
+{
+    font-size: 15px;
+    color: rgb(148, 148, 148)!important;
+}
+
+.latestPosts .cardPart h5
+{
+    color: #08526d;
+    font-weight: 700;
+}
+
+.latestPosts .cardPart a
+{
+    color: #ec1c23;
+    font-weight: 600;
+}
+
+
+.latestPosts .textRow
+{
+    padding: 0px 10%;
+
+}
+
+.latestPosts .cardPart2
+{
+    padding: 0% 15%;
+
+}
+
+
+/*Latest Posts end*/
+
+/*
+First color: #08526d
+Second color: #ec1c23
+*/
+
+/*testimonials start*/
+
+.testimonials
+{
+    margin-top: 80px;
+}
+
+.testimonials .slide .carousel-inner
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.testimonials .slide h1
+{
+    position: absolute;
+    max-width: 400px;
+    color: white; 
+    z-index: 2;
+    margin-left: 100px;
+
+}
+
+.testimonials .slide h1 span
+{
+    background-color:red;
+    padding: 0px 5px 5px 5px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.testimonials .slide
+{
+    background-color: rgb(209, 5, 5);
+}
+
+.testimonials  .overlay1
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.testimonials .carousel-control-prev,
+.testimonials .carousel-control-next,
+.testimonials .carousel-indicators
+
+{
+    z-index: 2;
+}
+
+.testimonials .carousel-item
+{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.testimonials .carousel-item1
+{
+    background-image: url(../imgs/Swain_0.jpg);
+    /* z-index: 10000; */
+}
+
+.testimonials .carousel-item2
+{
+    background-image: url(../imgs/Swain_1.jpg);
+}
+
+.testimonials .carousel-item3
+{
+    background-image: url(../imgs/Swain_2.jpg);
+}
+
+.testimonials .carousel-item4
+{
+    background-image: url(../imgs/Swain_3.jpg);
+}
+
+
+.testimonials .carousel-indicators [data-bs-target]
+{
+    height: 9px;
+    width: 40px;
+}
+
+.testimonials .carousel-caption 
+{
+    z-index: 3;
+  
+}
+
+/* .testimonials .carousel-control-prev ::before
+{
+    content: "";
+    position: absolute;
+    background-color: red;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: 100;
+
+
+} */
+
+/* .testimonials .buttonBackground
+{
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    height: 100px;
+    width: 100px;
+    z-index: 1;
+    
+} */
+
+
+
+/*testimonials end*/
+
+
+
+
+
+
